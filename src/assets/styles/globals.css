@@ -1,52 +1,110 @@
-body {
+@import "modern-normalize/modern-normalize.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  background-color: #E5E5E5;
- 
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Medium.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
-* {
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Bold.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Light.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Regular.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-UltraLight.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-UltraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Thin.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+:root {
+  --font-title: 'e-Ukraine Head', sans-serif;
+  --font-family: 'Inter', sans-serif;
 
+  --color-bg: #E5E5E5;
+  --color-white: #FFFFFF;
+  --color-text: #1D1E25;
+  --color-text-muted: #555770;
 
+  --color-bt:#1782CA;
+  --color-bt-hover:#136DAA;
+  --color-bt-disabled:#74B4DF;
+  
+  --transition-fast: 0.2s ease-in-out;
+  --transition-slow: 0.4s ease;
 
-
-
-
-
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
+ /* primary/200  - #A2CDEA 
+    primary/300  - #74B4DF
+    primary/500  - #1782CA
+    primary/600  - #136DAA
+   
+ */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+h1, h2, h3 {
+  font-family: var(--font-title);
 }
 
 a {
@@ -54,8 +112,30 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+/* ul, li {
+  list-style: none ;
+  margin: 0;
+  padding: 0;
 } */
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+
+
