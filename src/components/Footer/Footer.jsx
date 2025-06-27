@@ -11,7 +11,7 @@ const Footer = () => {
             <Image
               src="/icons/kvitka-lolo.svg"
               alt="Kvitka"
-              width={120}
+              width={111}
               height={40}
             />
             <ul className={styles.socials}>
@@ -52,7 +52,7 @@ const Footer = () => {
                     src="/icons/youtube.svg"
                     alt="youtube icon"
                     width={12}
-                    height={8}
+                    height={8.4}
                   />
                 </a>
               </li>
@@ -61,7 +61,7 @@ const Footer = () => {
                   <Image
                     src="/icons/tik_tok.svg"
                     alt="tik_tok icon"
-                    width={11}
+                    width={10.59}
                     height={12}
                   />
                 </a>
@@ -72,14 +72,14 @@ const Footer = () => {
                     src="/icons/telegram.svg"
                     alt="telegram icon"
                     width={12}
-                    height={10}
+                    height={9.94}
                   />
                 </a>
               </li>
               <li>
                 <a href="#" aria-label="x">
                   <Image
-                    src="/icons/x.svg"
+                    src="/icons/X.svg"
                     alt="X icon"
                     width={10}
                     height={10}
