@@ -1,25 +1,32 @@
-'use client';
-import Image from 'next/image';
-import { useTranslation } from 'react-i18next';
-import styles from './Hero.module.css';
-import Button from '../Button/Button';
+"use client";
+import Image from "next/image";
+import { useTranslation } from "react-i18next";
+import styles from "./Hero.module.css";
+import LinkButton from "../LinkButton/LinkButton";
+// import Button from '../Button/Button';
 
 const Hero = () => {
-  const{t}=useTranslation();
+  const { t } = useTranslation();
   return (
     <section className={styles.hero}>
       <div className={styles.container}>
         <div className={styles.text}>
           <span className={styles.badge}>by Global Ukraine</span>
           <h1 className={styles.title}>
-            <span className={styles.highlight}>KViTKA Pro:</span> BANKING<br />
+            <span className={styles.highlight}>KViTKA Pro:</span> BANKING
+            <br />
             WITHOUT BORDERS
           </h1>
           <p className={styles.subtitle}>
-            KViTKA Pro, a licensed Money Services business, unifies fiat and crypto flows so
-            your company can pay, receive, and invest worldwide — instant global transfers
+            KViTKA Pro, a licensed Money Services business, unifies fiat and
+            crypto flows so your company can pay, receive, and invest worldwide
+            — instant global transfers
           </p>
-          <Button>{t('getStarted')}</Button>
+
+          <LinkButton href="/getStarted" size="large">
+            {t("getStarted")}
+          </LinkButton>
+          {/* <Button>{t('getStarted')}</Button> */}
         </div>
 
         <div className={styles.mockupWrapper}>
@@ -52,10 +59,6 @@ const Hero = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Hero;
-
-
-
-

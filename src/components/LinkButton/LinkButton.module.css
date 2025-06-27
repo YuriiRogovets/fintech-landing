@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.labelLink {
+    display: flex;
+    align-items: center;
+}
+
+/* Стилі для текстового овалу */
+.labelContent {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 56px;
+  background-color: var(--color-bt);
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+  transition: var(--transition-fast);
+  padding: 0;
+}
+
+/* Стилі для іконки */
+.iconWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bt);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* LARGE */
+.large .labelContent {
+  padding: 16px 24px;
+  font-size: 14px;
+  height: 48px;
+}
+
+.large .iconWrapper {
+  width: 48px;
+  height: 48px;
+}
+
+/* SMALL */
+.small .labelContent{
+  padding: 12px 16px;
+  font-size: 14px;
+  height: 40px;
+}
+
+.small .iconWrapper {
+  width: 40px;
+  height: 40px;
+}

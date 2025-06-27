@@ -1,28 +1,39 @@
-import React from 'react';
-import styles from './Button.module.css';
+import React from "react";
+import Image from "next/image";
+import styles from "./Button.module.css";
 
-export default function Button({ children, onClick, variant = 'primary', disabled = false, type = 'button' }) {
+export default function Button({
+  children,
+  onClick,
+  variant = "primary",
+  size = "large", 
+  disabled = false,
+  type = "button",
+}) {
+  
   return (
     <button
-      className={`${styles.button} ${styles[variant]} ${disabled ? styles.disabled : ''}`}
+      className={`
+        ${styles.button}
+        ${styles[variant]}
+        ${styles[size]}
+        ${disabled ? styles.disabled : ""}
+      `}
       onClick={onClick}
       disabled={disabled}
       type={type}
     >
-
-      <div className={styles.contentWrapper}>
-
-      </div>
-      {children}  
-      {/* <div className={styles.arrowWrapper}>
+      <span className={styles.contentWrapper}>
+        <span className={styles.label}>{children}</span>
+        <span className={styles.arrowWrapper}>
           <Image
-                          src="/icons/arrow-right-up.svg"
-                          alt="arrow icon"
-                          width={20}
-                          height={20}
-                        />
-      </div> */}
-
+            src="/icons/arrow-right-up.svg"
+            alt=""
+            width={16}
+            height={16}
+          />
+        </span>
+      </span>
     </button>
   );
 }

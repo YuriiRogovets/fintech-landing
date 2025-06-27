@@ -1,19 +1,19 @@
 .hero {
-     padding: 6rem 1rem 4rem;
-    max-width: 100%;
-    margin: 0 auto;
-    background-image: url(../../../public/images/bg-hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  padding: 6rem 1rem 4rem;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url(../../../public/images/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
-
 
 .container {
   max-width: 1360px;
   margin: 0 auto;
   text-align: center;
+  padding: 80px auto 470px;
+  position: relative;
 }
 
 .badge {
@@ -48,7 +48,9 @@
 }
 
 .mockupWrapper {
-  margin-top: 2rem;
+  margin-top: 2rem auto 0;
+  max-width: 1146px;
+  position: absolute;
 }
 
 .mockup {
@@ -59,7 +61,7 @@
 }
 
 .benefits {
-  margin-top: 3rem;
+
   background-color: #002a4e;
   border-radius: 1rem;
   padding: 1rem 2rem;
@@ -86,9 +88,8 @@
 
 @media (max-width: 768px) {
   .hero {
-      background-image: url(../../../public/images/bg-hero-mobile.jpg);
-    
-}
+    background-image: url(../../../public/images/bg-hero-mobile.jpg);
+  }
 
   .title {
     font-size: 1.8rem;
