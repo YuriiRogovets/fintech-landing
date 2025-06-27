@@ -79,6 +79,14 @@
   --color-bt:#1782CA;
   --color-bt-hover:#136DAA;
   --color-bt-disabled:#74B4DF;
+
+  
+  --color-text: #111111;
+  --color-primary: #0057B8;
+  --color-gray-50: #F9FAFB;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e5e7eb;
+  --color-gray-600: #4b5563;
   
   --transition-fast: 0.2s ease-in-out;
   --transition-slow: 0.4s ease;
@@ -95,7 +103,7 @@
 body {
 
   font-family: var(--font-family);
-  background-color: var(--color-bg);
+  background-color: var(--color-white);
   color: var(--color-text);
   line-height: 1.6;
   font-size: 16px;

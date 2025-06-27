@@ -9,7 +9,20 @@ export default function Button({ children, onClick, variant = 'primary', disable
       disabled={disabled}
       type={type}
     >
-      {children}
+
+      <div className={styles.contentWrapper}>
+
+      </div>
+      {children}  
+      {/* <div className={styles.arrowWrapper}>
+          <Image
+                          src="/icons/arrow-right-up.svg"
+                          alt="arrow icon"
+                          width={20}
+                          height={20}
+                        />
+      </div> */}
+
     </button>
   );
 }

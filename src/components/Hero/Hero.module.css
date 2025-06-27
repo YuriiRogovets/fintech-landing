@@ -1,5 +1,110 @@
 .hero {
-  padding: 2rem;
-  background: #e5f3ff;
+     padding: 6rem 1rem 4rem;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../../../public/images/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
   text-align: center;
+}
+
+.badge {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: var(--color-primary);
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: var(--color-gray-600);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.mockupWrapper {
+  margin-top: 2rem;
+}
+
+.mockup {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.benefits {
+  margin-top: 3rem;
+  background-color: #002a4e;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.benefits ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits li {
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .hero {
+      background-image: url(../../../public/images/bg-hero-mobile.jpg);
+    
+}
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .benefits {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .benefits ul {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+  }
 }

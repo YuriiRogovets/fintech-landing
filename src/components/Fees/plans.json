@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Starter Corporate Pack",
+    "action": "Get Started",
+    "features": [
+      "Basic Onboarding Pack & Guide",
+      "Email & Chat Support",
+      "No",
+      "Full Access",
+      "Optional"
+    ]
+  },
+  {
+    "name": "Freelancer Pack",
+    "action": "Get Registered",
+    "features": [
+      "Mid-Term Onboarding + Integration",
+      "Email Support",
+      "Yes",
+      "Simplified UI",
+      "No"
+    ]
+  },
+  {
+    "name": "Business Pack",
+    "action": "Get Banking",
+    "features": [
+      "Fast Track Onboarding",
+      "Priority Email & Phone",
+      "Yes",
+      "Advanced Tools",
+      "Optional"
+    ]
+  },
+  {
+    "name": "Global Growth Pack",
+    "action": "Contact Us",
+    "features": [
+      "Advanced Fast Track",
+      "Dedicated Manager",
+      "Yes",
+      "API, Automations, Integrations",
+      "Included"
+    ]
+  }
+]
