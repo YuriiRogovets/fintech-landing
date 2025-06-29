@@ -40,22 +40,7 @@ const Hero = () => {
           />
         </div>
 
-        <div className={styles.benefits}>
-          <ul>
-            <li>
-              <span>Instant SEPA & SWIFT settlement</span>
-            </li>
-            <li>
-              <span>Crypto payments at market speed</span>
-            </li>
-            <li>
-              <span>Fast approval, global coverage</span>
-            </li>
-            <li>
-              <span>Community impact investments</span>
-            </li>
-          </ul>
-        </div>
+        
       </div>
     </section>
   );

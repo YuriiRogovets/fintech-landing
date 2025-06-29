@@ -3,44 +3,60 @@
     "name": "Starter Corporate Pack",
     "action": "Get Started",
     "features": [
-      "Basic Onboarding Pack & Guide",
-      "Email & Chat Support",
-      "No",
-      "Full Access",
-      "Optional"
-    ]
+  "Multi-currency Fiat & Crypto",
+  "Fast-Track Onboarding",
+  "Transparent transaction fees",
+  "Email & Chat Support",
+  "Yes",
+  "Included",
+  "Full access",
+  "Yes",
+  "Optional"
+]
   },
   {
     "name": "Freelancer Pack",
     "action": "Get Registered",
     "features": [
-      "Mid-Term Onboarding + Integration",
-      "Email Support",
-      "Yes",
-      "Simplified UI",
-      "No"
-    ]
+  "Multi-currency Fiat & Crypto",
+  "Fast-Track Onboarding",
+  "Transparent transaction fees",
+  "Email & Chat Support",
+  "Yes",
+  "Included",
+  "Full access",
+  "Yes",
+  "Optional"
+]
   },
   {
     "name": "Business Pack",
     "action": "Get Banking",
     "features": [
-      "Fast Track Onboarding",
-      "Priority Email & Phone",
-      "Yes",
-      "Advanced Tools",
-      "Optional"
-    ]
+  "Multi-currency Fiat & Crypto",
+  "Fast-Track Onboarding",
+  "Transparent transaction fees",
+  "Email & Chat Support",
+  "Yes",
+  "Included",
+  "Full access",
+  "Yes",
+  "Optional"
+]
   },
   {
     "name": "Global Growth Pack",
     "action": "Contact Us",
     "features": [
-      "Advanced Fast Track",
-      "Dedicated Manager",
-      "Yes",
-      "API, Automations, Integrations",
-      "Included"
-    ]
+  "Multi-currency Fiat & Crypto",
+  "Fast-Track Onboarding",
+  "Transparent transaction fees",
+  "Email & Chat Support",
+  "Yes",
+  "Included",
+  "Full access",
+  "Yes",
+  "Optional"
+]
   }
 ]

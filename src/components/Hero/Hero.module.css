@@ -48,9 +48,12 @@
 }
 
 .mockupWrapper {
-  margin-top: 2rem auto 0;
+  margin: 2rem auto 0;
   max-width: 1146px;
   position: absolute;
+  bottom: -100%;
+  left: 25%;
+
 }
 
 .mockup {
@@ -60,7 +63,7 @@
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
 }
 
-.benefits {
+/* .benefits {
 
   background-color: #002a4e;
   border-radius: 1rem;
@@ -84,7 +87,7 @@
 .benefits li {
   font-size: 0.9rem;
   white-space: nowrap;
-}
+} */
 
 @media (max-width: 768px) {
   .hero {
@@ -99,7 +102,7 @@
     font-size: 0.95rem;
   }
 
-  .benefits {
+  /* .benefits {
     padding: 1rem;
     flex-direction: column;
   }
@@ -107,5 +110,5 @@
     flex-direction: column;
     gap: 0.75rem;
     align-items: center;
-  }
+  } */
 }

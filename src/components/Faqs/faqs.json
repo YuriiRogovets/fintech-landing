@@ -1,8 +1,32 @@
 [
-  "Who can open a Kvitka Pro account?",
-  "What documents do I need?",
-  "Can everyone access crypto features?",
-  "How do I track my transactions?",
-  "Where can I receive payments from?",
-  "To whom can I send payments to?"
+  {
+    "question": "Who can open a Kvitka Pro account?",
+    "answer": "If you're a registered business ready to grow, you're welcome here! As long as your company passes our quick KYB and compliance check, you're good to go."
+  },
+
+  {
+    "question": "What documents do I need?",
+    "answer": "2 answer."
+  },
+
+  {
+    "question": "Can everyone access crypto features?",
+    "answer": "3 answer."
+  },
+  {
+    "question": "How do I track my transactions?",
+    "answer": "4 answer."
+  },
+  {
+    "question": "Where can I receive payments from?",
+    "answer": "5 answer."
+  },
+  {
+    "question": "To whom can I send payments to?",
+    "answer": "6 answer."
+  },
+  {
+    "question": "Are there any places you don’t support yet?",
+    "answer": "7 answer."
+  }
 ]
