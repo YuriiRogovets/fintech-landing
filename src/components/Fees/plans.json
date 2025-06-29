@@ -1,6 +1,7 @@
 [
   {
     "name": "Starter Corporate Pack",
+    "comment": "Best for SMEs and Enterprises",
     "action": "Get Started",
     "features": [
   "Multi-currency Fiat & Crypto",
@@ -16,6 +17,7 @@
   },
   {
     "name": "Freelancer Pack",
+    "comment": "Perfect for Independent Professionals",
     "action": "Get Registered",
     "features": [
   "Multi-currency Fiat & Crypto",
@@ -31,6 +33,7 @@
   },
   {
     "name": "Business Pack",
+    "comment": "Solutions for Scaling Businesses",
     "action": "Get Banking",
     "features": [
   "Multi-currency Fiat & Crypto",
@@ -46,6 +49,7 @@
   },
   {
     "name": "Global Growth Pack",
+    "comment": "Ideal for High-Volume & Global Firms",
     "action": "Contact Us",
     "features": [
   "Multi-currency Fiat & Crypto",

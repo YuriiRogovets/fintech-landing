@@ -71,18 +71,15 @@
   --font-title: 'e-Ukraine Head', sans-serif;
   --font-family: 'Inter', sans-serif;
 
-  --color-bg: #E5E5E5;
+  --color-bg: #F5F5F6;
   --color-white: #FFFFFF;
   --color-text: #1D1E25;
   --color-text-muted: #555770;
-
   --color-bt:#1782CA;
   --color-bt-hover:#136DAA;
   --color-primary-200: #A2CDEA;
   --color-primary-300:#74B4DF;
-
-  
-  --color-text: #111111;
+  /* --color-text: #111111; */
   --color-primary: #0057B8;
   --color-gray-50: #F9FAFB;
   --color-gray-100: #f5f5f5;
