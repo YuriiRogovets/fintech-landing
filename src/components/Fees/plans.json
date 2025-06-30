@@ -20,15 +20,15 @@
     "comment": "Perfect for Independent Professionals",
     "action": "Get Registered",
     "features": [
-  "Multi-currency Fiat & Crypto",
+  "Crypto & Fiat Support",
   "Fast-Track Onboarding",
-  "Transparent transaction fees",
+  "Low setup and monthly fee",
   "Email & Chat Support",
   "Yes",
   "Included",
-  "Full access",
+  "Simplified UI",
   "Yes",
-  "Optional"
+  "No"
 ]
   },
   {
@@ -36,13 +36,13 @@
     "comment": "Solutions for Scaling Businesses",
     "action": "Get Banking",
     "features": [
-  "Multi-currency Fiat & Crypto",
+  "Multi-currency + Integrations",
   "Fast-Track Onboarding",
-  "Transparent transaction fees",
-  "Email & Chat Support",
+  "Flat monthly fee",
+  "Priority Email & Phone",
   "Yes",
   "Included",
-  "Full access",
+  "Advanced Tools",
   "Yes",
   "Optional"
 ]
@@ -52,15 +52,15 @@
     "comment": "Ideal for High-Volume & Global Firms",
     "action": "Contact Us",
     "features": [
-  "Multi-currency Fiat & Crypto",
+  "Advanced VIP Support",
   "Fast-Track Onboarding",
-  "Transparent transaction fees",
-  "Email & Chat Support",
+  "Custom pricing",
+  "Dedicated Account Manager",
   "Yes",
-  "Included",
-  "Full access",
+  "Full Access",
+  "API, Automation, Integrations",
   "Yes",
-  "Optional"
+  "Included"
 ]
   }
 ]

@@ -1,8 +1,8 @@
 .hero {
-  padding: 6rem 1rem 4rem;
+  padding: 0 1rem;
   max-width: 1920px;
   margin: 0 auto;
-  background-image: url(../../../public/images/bg-hero.jpg);
+  background-image: url(/images/bg-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -12,8 +12,14 @@
   max-width: 1360px;
   margin: 0 auto;
   text-align: center;
-  padding: 80px auto 470px;
+  padding: 5.125rem 0 28.75rem;
   position: relative;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .badge {
@@ -36,7 +42,7 @@
 }
 
 .highlight {
-  color: var(--color-primary);
+  /* color: var(--color-primary); */
 }
 
 .subtitle {
@@ -48,51 +54,62 @@
 }
 
 .mockupWrapper {
-  margin: 2rem auto 0;
-  max-width: 1146px;
+  /* width: 1146px;
   position: absolute;
-  bottom: -100%;
-  left: 25%;
+  bottom: -5.31rem;
+  left: calc((100% - 1146px) / 2); */
+  position: absolute;
+  bottom: -5.31rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1146px;
+ 
 
+}
+
+.mockupInner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 573 / 230;
 }
 
 .mockup {
-  max-width: 100%;
-  height: auto;
+  object-fit: contain;
   border-radius: 1rem;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08); */
 }
-
-/* .benefits {
-
-  background-color: #002a4e;
-  border-radius: 1rem;
-  padding: 1rem 2rem;
-  color: white;
-  display: flex;
-  justify-content: center;
-  overflow-x: auto;
-}
-
-.benefits ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.benefits li {
-  font-size: 0.9rem;
-  white-space: nowrap;
-} */
 
 @media (max-width: 768px) {
   .hero {
-    background-image: url(../../../public/images/bg-hero-mobile.jpg);
+    background-image: url(/images/bg-hero-mobile.jpg);
   }
+ 
+  .container {
+  min-width: 343px;
+  padding: 3rem 0 5.375rem;
+ 
+} 
+
+
+  .text {
+  margin-bottom: 3.77rem;
+}
+  .mockupWrapper {
+  position: static;
+  transform: none;
+
+}
+
+.mockupInner {
+  /* aspect-ratio: 343 / 139; */
+}
+
+.mockup {
+  object-fit: contain;
+  border-radius: 0.5rem;
+ 
+}
 
   .title {
     font-size: 1.8rem;
@@ -101,14 +118,4 @@
   .subtitle {
     font-size: 0.95rem;
   }
-
-  /* .benefits {
-    padding: 1rem;
-    flex-direction: column;
-  }
-  .benefits ul {
-    flex-direction: column;
-    gap: 0.75rem;
-    align-items: center;
-  } */
 }

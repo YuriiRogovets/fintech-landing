@@ -28,7 +28,7 @@ export default function Header() {
           <LanguageSwitcher />
 
           {/* CTA button */}
-          <LinkButton href="/signup" size="small">
+          <LinkButton href="#" size="small">
             Sign up
           </LinkButton>
         </div>

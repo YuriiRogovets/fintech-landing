@@ -26,18 +26,21 @@ const Hero = () => {
           <LinkButton href="/getStarted" size="large">
             {t("getStarted")}
           </LinkButton>
-          {/* <Button>{t('getStarted')}</Button> */}
+          
         </div>
 
         <div className={styles.mockupWrapper}>
-          <Image
+          <div className={styles.mockupInner}>
+            <Image
             src="/images/mockup.webp" // 👈 ти можеш змінити шлях на свій
             alt="KViTKA Dashboard"
-            width={800}
-            height={400}
+            fill
             className={styles.mockup}
             priority
           />
+
+          </div>
+          
         </div>
 
         
