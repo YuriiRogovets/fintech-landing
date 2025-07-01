@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import styles from "./Hero.module.css";
 import LinkButton from "../LinkButton/LinkButton";
+import Benefits from "../Benefits/Benefits";
 // import Button from '../Button/Button';
 
 const Hero = () => {
@@ -23,7 +24,7 @@ const Hero = () => {
             — instant global transfers
           </p>
 
-          <LinkButton href="/getStarted" size="large">
+          <LinkButton href="#" size="large">
             {t("getStarted")}
           </LinkButton>
           
@@ -45,6 +46,7 @@ const Hero = () => {
 
         
       </div>
+      <Benefits/>
     </section>
   );
 };

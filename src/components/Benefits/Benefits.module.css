@@ -1,31 +1,50 @@
 .benefits {
+  
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+
+  width: 100%;
   max-width: 1360px;
-  background-color: #002a4e;
   border-radius: 2rem;
+  
+  background-color: #002a4e;
+  background-image: url(/images/bg-benefit-desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+
+.container {
+
+  max-width: 1360px;
   padding: 2rem 0;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow-x: auto;
+  gap: 1.5rem;
+  /* overflow-x: auto; */
+  /* margin: 320px auto; */
+  
 
-  margin: 320px auto;
-  background-image: url(/images/bg-benefit-desk.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
+
 }
 
-
-/* .title {
-    margin: 0 auto;
-} */
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.33;
+}
 
 .benefits ul {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  gap: 7.75rem;
   justify-content: space-between;
   list-style: none;
   padding: 0;
@@ -33,8 +52,16 @@
 }
 
 .benefits li {
-  font-size: 0.9rem;
-  white-space: nowrap;
+  max-width: 172px;
+  text-align: center;
+ 
+}
+
+.benefits li span{
+   font-size: 1rem;
+  line-height: 1.33;
+  font-weight: 500;
+  
 }
 
 @media (max-width: 768px) {
@@ -49,4 +76,11 @@
     gap: 0.75rem;
     align-items: center;
   }
+
+  .benefits li {
+    width: 100%;
+  max-width: 343px;
+  text-align: center;
+ 
+}
 }

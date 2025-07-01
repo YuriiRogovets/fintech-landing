@@ -8,6 +8,7 @@ import styles from "./Benefits.module.css";
 const Benefits = () => {
   return (
     <section className={styles.benefits}>
+      <div className={styles.container} >
         <h2 className= {styles.title}>YOUR BENEFITS WITH US</h2>
           <ul>
             <li>
@@ -23,7 +24,8 @@ const Benefits = () => {
               <span>Community impact investments</span>
             </li>
           </ul>
-        </section>
+      </div>    
+      </section>
   )
 }
 
