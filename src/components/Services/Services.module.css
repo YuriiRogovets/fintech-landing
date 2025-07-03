@@ -40,6 +40,8 @@
   max-width: 473px;
   width: 100%;
   align-items: flex-start;
+  padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .buttonBox p {
@@ -56,12 +58,11 @@
 
 .account {
   display: flex;
-  justify-content: space-between;
+  gap: 4rem;
   margin-bottom: 5rem;
 }
 
 .accountImage {
-  flex: 1;
   text-align: center;
   min-width: 280px;
 }
@@ -132,14 +133,13 @@
 
 .description ul li {
   display: flex;
-  align-items: start; /* add */ 
-  gap: 12px;         /* add */ 
+  align-items: start; /* add */
+  gap: 12px; /* add */
 
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 500;
   color: #586673;
-  
 }
 
 .liContent {
@@ -151,8 +151,6 @@
   font-weight: 600;
   color: #113453;
 }
-
-
 
 /* .description ul li strong {
   margin-left: 12px;
@@ -202,16 +200,15 @@
 
   .buttonBox {
     flex-direction: column;
-
     max-width: 271px;
-
     align-items: center;
+    padding: 0;
+    margin-left: 0;
   }
 
   .account {
     flex-direction: column;
 
-    justify-content: space-between;
     margin-bottom: 4rem;
   }
 
@@ -219,7 +216,7 @@
     padding: 0;
     max-width: 343px;
     width: 100%;
-    margin: 2.5rem 0 4.5rem;
+    margin-top: 2.5rem;
   }
 
   .features h3 {
@@ -242,7 +239,6 @@
   }
 
   .description ul li {
-  font-size: 0.875rem;
-}
-
+    font-size: 0.875rem;
+  }
 }
