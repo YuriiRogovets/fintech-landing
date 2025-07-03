@@ -7,6 +7,7 @@ import Footer from '@/components/Footer/Footer';
 import Fees from '@/components/Fees/Fees';
 import Faqs from '@/components/Faqs/Faqs';
 import Benefits from '@/components/Benefits/Benefits';
+import Services from '@/components/Services/Services';
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        {/* <Benefits/> */}
+        <Services/>
         <Fees/>
         <Faqs/>
       </main>

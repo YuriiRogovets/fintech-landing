@@ -21,7 +21,7 @@
 .container {
 
   max-width: 1360px;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@
 @media (max-width: 768px) {
  
   .benefits {
-    padding: 1rem;
+    
     flex-direction: column;
     background-image: url(/images/bg-benefit-mobile.jpg);
   }

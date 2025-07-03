@@ -43,7 +43,7 @@ const FeesDesktop = () => {
                   <th key={idx} className={styles.headCell}>
                     <div className={styles.planName}>{plan.name}</div>
                     <p className={styles.subtitle}>{plan.comment}</p>
-                    <LinkButton href={`/${plan.action}`} size="large">
+                    <LinkButton href={`${plan.link}`} size="large">
                       {plan.action}
                     </LinkButton>
                   </th>
