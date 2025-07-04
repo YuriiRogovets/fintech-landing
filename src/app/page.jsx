@@ -6,8 +6,8 @@ import Hero from '@/components/Hero/Hero';
 import Footer from '@/components/Footer/Footer';
 import Fees from '@/components/Fees/Fees';
 import Faqs from '@/components/Faqs/Faqs';
-import Benefits from '@/components/Benefits/Benefits';
 import Services from '@/components/Services/Services';
+import GettingStarted from '@/components/GettingStarted/GettingStarted';
 
 
 export default function Home() {
@@ -18,6 +18,7 @@ export default function Home() {
       <main>
         <Hero />
         <Services/>
+        <GettingStarted/>
         <Fees/>
         <Faqs/>
       </main>
