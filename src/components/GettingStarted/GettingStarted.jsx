@@ -7,7 +7,7 @@ export default function gettingStarted() {
     <section className={styles.gettingStarted}>
       <div className={styles.container}>
             <div className={styles.header}>
-                <div>
+                <div className={styles.text}>
                     <h2>Getting started is easy</h2>
                     <p>
                     KVITKA Pro is a licensed Electronic Money Institution built for

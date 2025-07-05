@@ -7,9 +7,14 @@ const Faqs = () => {
   return (
     <section className={styles.section} id="faqs">
       <div className={styles.container}>
-        <h2 className={styles.heading}>
+        <div className={styles.top}> 
+        <h2 className={styles.title}>
           Have Questions? We’ve Got You Covered!
         </h2>
+        <h4>Our team is here to assist you</h4>
+        <p>Contact us using the form below or email us directly at <a href="support@kvitka-pro.com">support@kvitka-pro.com.</a></p>
+      </div> 
+      
         <ul className={styles.list}>
           {faqs.map((faq, i) => (
             <li key={i} className={styles.item}>

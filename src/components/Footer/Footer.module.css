@@ -1,6 +1,7 @@
 .footer {
-    background-color: var(--color-white);
+    background-color: var(--color-bg);
     padding: 1.5rem 1rem;
+    border-top: 1px solid #E7E9EB ;
 }
 
 .container {
@@ -8,7 +9,6 @@
 max-width: 1360px;
 min-width: 345px;
 margin: 0 auto;
-
 
 }
 
@@ -83,6 +83,10 @@ margin: 0 auto;
 }
 
 @media (max-width: 768px) {
+
+  .footer {
+    background-color: var(--color-white);
+}
  
 .logoBlock {
   flex-direction: column;
