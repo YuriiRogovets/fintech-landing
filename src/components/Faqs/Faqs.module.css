@@ -57,25 +57,57 @@
 }
 
 .item {
-  margin-bottom: 1rem;
-  border: 1px solid var(--color-gray-200);
-  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  /* border: 1px solid var(--color-gray-200); */
+  border-radius: 1.5rem;
   background-color: var(--color-bg);
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
-.summary {
-  cursor: pointer;
-  font-weight: 500;
-  color: var(--color-primary);
-  font-size: 1rem;
+/* Приховати стандартний маркер summary */
+.summary::-webkit-details-marker {
+  display: none;
 }
+.summary::marker {
+  display: none;
+}
+
+/* summary як flex — для вирівнювання іконки та тексту */
+.summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem; /* місце для +/– */
+  font-weight: 600;
+  color: #113453;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+/* Кастомний маркер (+ або –) */
+.summary::before {
+  content: "+";
+  position: absolute;
+  left: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #113453;
+}
+
+/* Коли <details open> — змінюємо на – */
+.details[open] > .summary::before {
+  content: "–";
+}
+
 
 .answer {
   margin-top: 0.5rem;
-  color: var(--color-gray-600);
-  font-size: 0.9rem;
-  line-height: 1.4;
+  color: #586673;
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: pre-line;
+  padding-left: 1.5rem;
 }
 
 /* Responsive */
@@ -104,6 +136,12 @@
     color: #586673;
     margin: 0 auto;
   }
+
+  .item {
+  margin-bottom: 1.25rem;
+  border-radius: 1.5rem;
+  padding: 0.75rem;
+}
 
   .summary {
     font-size: 0.95rem;

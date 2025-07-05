@@ -12,13 +12,13 @@ const Faqs = () => {
           Have Questions? We’ve Got You Covered!
         </h2>
         <h4>Our team is here to assist you</h4>
-        <p>Contact us using the form below or email us directly at <a href="support@kvitka-pro.com">support@kvitka-pro.com.</a></p>
+        <p>Contact us using the form below or email us directly at <a href="mailto:support@kvitka-pro.com">support@kvitka-pro.com.</a></p>
       </div> 
       
         <ul className={styles.list}>
           {faqs.map((faq, i) => (
             <li key={i} className={styles.item}>
-              <details>
+              <details className={styles.details}>
                 <summary className={styles.summary}>{faq.question}</summary>
                 <p className={styles.answer}>{faq.answer}</p>
               </details>
