@@ -35,7 +35,48 @@ const FeesMobile = () => {
     const slider = sliderRef.current;
     slider?.addEventListener("scroll", handleScroll);
     return () => slider?.removeEventListener("scroll", handleScroll);
+    
   }, []);
+
+  // --- Вирівнювання висоти рядків у всіх картках ---
+  useEffect(() => {
+    const syncRowHeights = () => {
+      const cards = sliderRef.current?.querySelectorAll(`.${styles.card}`);
+      if (!cards || cards.length === 0) return;
+
+      const numRows = rowLabels.length;
+      const rowHeights = Array(numRows).fill(0);
+
+      // Обнуляємо старі висоти
+      cards.forEach((card) => {
+        const rows = card.querySelectorAll(`.${styles.featureRow}`);
+        rows.forEach((row) => {
+          row.style.height = "auto";
+        });
+      });
+
+      // Збираємо максимальні висоти
+      cards.forEach((card) => {
+        const rows = card.querySelectorAll(`.${styles.featureRow}`);
+        rows.forEach((row, i) => {
+          rowHeights[i] = Math.max(rowHeights[i], row.clientHeight);
+        });
+      });
+
+      // Присвоюємо однакову висоту
+      cards.forEach((card) => {
+        const rows = card.querySelectorAll(`.${styles.featureRow}`);
+        rows.forEach((row, i) => {
+          row.style.height = `${rowHeights[i]}px`;
+        });
+      });
+    };
+
+    syncRowHeights();
+    window.addEventListener("resize", syncRowHeights);
+    return () => window.removeEventListener("resize", syncRowHeights);
+  }, [plans]);
+
 
   return (
     <section className={styles.section}>

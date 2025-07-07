@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import ArrowDown from "../../assets/icons/ArrowDown.svg"
 import i18n from '@/i18n';
 import Image from 'next/image';
 

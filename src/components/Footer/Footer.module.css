@@ -18,7 +18,7 @@ margin: 0 auto;
   align-items: center;
   flex-wrap: wrap;
   gap: 1.5rem;
-  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .logoBlock {
@@ -53,7 +53,6 @@ margin: 0 auto;
 
 .navBlock {
   display: flex;
- 
   align-items: flex-end;
   gap: 32px;
 }
@@ -62,25 +61,41 @@ margin: 0 auto;
   padding: 4px 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  background-color: var(--color-white);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+
 }
 
 .links {
   display: flex;
   gap: 32px;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+
 }
 
 .bottomSection {
-  margin-top: 24px;
   text-align: left;
   font-size: 12px;
-  color: #999;
+  color: #586673;
+
 }
 
-.text {
-  margin-bottom: 8px;
-  line-height: 1.5;
+
+
+.bottomSection div{
+  margin-top:24px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 1.67;
+  font-weight: 400;
 }
+
+
 
 @media (max-width: 768px) {
 
@@ -96,5 +111,16 @@ margin: 0 auto;
   .navBlock {
   flex-direction: column;
   align-items: start;
+}
+
+.topSection {
+  flex-direction: column;
+  align-items: start;
+}
+
+.bottomSection div{
+  
+  flex-direction: column;
+  gap: 0.75rem;
 }
 }

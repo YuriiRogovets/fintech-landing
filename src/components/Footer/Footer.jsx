@@ -1,6 +1,7 @@
 import styles from "./Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import i18n from "@/i18n";
 
 const Footer = () => {
   return (
@@ -91,6 +92,8 @@ const Footer = () => {
 
           <div className={styles.navBlock}>
             <select className={styles.langSelect}>
+              value={i18n.language}
+              onChange={(e) => i18n.changeLanguage(e.target.value)}
               <option value="en">English (EN)</option>
               <option value="uk">Українська (UK)</option>
             </select>
@@ -108,11 +111,17 @@ const Footer = () => {
             Birmingham St, Unit C6, Toronto, Ontario, Canada, M8V 3W6),
             regulated by the Bank of Canada (MSB Registration: C100000033); and
             managed by GBH France (registration number 888 935 202, located at 8
-            Rue Graham Bell, 57000 Metz, France).
+            Rue Graham Bell, 57000 Metz, France).
           </p>
-          <p className={styles.copyright}>
+          <div>
+            <p className={styles.copyright}>
+            GBH France, 8 Graham Bell St. 57070 Metz, FRANCE
+          </p>
+            <p className={styles.copyright}>
             © 2025 KVITKA Pro. All rights reserved.
           </p>
+          </div>
+          
         </div>
       </div>
     </footer>
