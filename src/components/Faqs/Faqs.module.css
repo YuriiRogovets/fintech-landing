@@ -1,5 +1,5 @@
 .section {
-  padding: 44px 16px 140px;
+  padding: 40px 16px 140px;
   background-color: var(--color-white);
   color: var(--color-text);
 }
@@ -112,6 +112,12 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+
+.section {
+  padding: 40px 16px 80px;
+ 
+}
+
   .container {
     min-width: 343px;
     flex-direction: column;

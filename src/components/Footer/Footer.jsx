@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import i18n from "@/i18n";
+import i18n from "../../i18n";
 
 const Footer = () => {
   return (
@@ -91,11 +91,13 @@ const Footer = () => {
           </div>
 
           <div className={styles.navBlock}>
-            <select className={styles.langSelect}>
+            <select
+              className={styles.langSelect}
               value={i18n.language}
               onChange={(e) => i18n.changeLanguage(e.target.value)}
+            >
               <option value="en">English (EN)</option>
-              <option value="uk">Українська (UK)</option>
+              <option value="ua">Українська (UA)</option>
             </select>
             <div className={styles.links}>
               <Link href="/terms">Terms & Conditions</Link>
@@ -115,13 +117,12 @@ const Footer = () => {
           </p>
           <div>
             <p className={styles.copyright}>
-            GBH France, 8 Graham Bell St. 57070 Metz, FRANCE
-          </p>
+              GBH France, 8 Graham Bell St. 57070 Metz, FRANCE
+            </p>
             <p className={styles.copyright}>
-            © 2025 KVITKA Pro. All rights reserved.
-          </p>
+              © 2025 KVITKA Pro. All rights reserved.
+            </p>
           </div>
-          
         </div>
       </div>
     </footer>

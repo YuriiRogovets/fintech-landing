@@ -13,10 +13,8 @@ const Hero = () => {
       <div className={styles.container}>
         <div className={styles.text}>
           <span className={styles.badge}>by Global Ukraine</span>
-          <h1 className={styles.title}>
-            <span className={styles.highlight}>KViTKA Pro:</span> BANKING
-            <br />
-            WITHOUT BORDERS
+          <h1 className={styles.title}>         
+            KViTKA PRO: BANKING WITHOUT BORDERS
           </h1>
           <p className={styles.subtitle}>
             KViTKA Pro, a licensed Money Services business, unifies fiat and
