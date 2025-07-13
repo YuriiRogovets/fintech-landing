@@ -17,7 +17,7 @@ const Footer = () => {
             />
             <ul className={styles.socials}>
               <li>
-                <a href="#" aria-label="instagram">
+                <a href="https://www.instagram.com/globalukraine?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" aria-label="instagram">
                   <Image
                     src="/icons/instagram.svg"
                     alt="instagram icon"
@@ -27,7 +27,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" aria-label="facebook">
+                <a href="https://www.facebook.com/GlobalUkraineFoundation/" aria-label="facebook">
                   <Image
                     src="/icons/facebook.svg"
                     alt="facebook icon"
@@ -37,7 +37,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" aria-label="linkedIn">
+                <a href="https://www.linkedin.com/company/global-ukraine" aria-label="linkedIn">
                   <Image
                     src="/icons/linkedin.svg"
                     alt="In icon"
@@ -48,21 +48,21 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="#" aria-label="youtube">
+                <a href="https://www.youtube.com/channel/UCDbjrWJz_nMkhZckuvlJ1OA" aria-label="youtube">
                   <Image
                     src="/icons/youtube.svg"
                     alt="youtube icon"
                     width={12}
-                    height={8.4}
+                    height={8}
                   />
                 </a>
               </li>
               <li>
-                <a href="#" aria-label="tik_tok">
+                <a href="https://www.tiktok.com/@globalukraine" aria-label="tik_tok">
                   <Image
                     src="/icons/tik_tok.svg"
                     alt="tik_tok icon"
-                    width={10.59}
+                    width={11}
                     height={12}
                   />
                 </a>
@@ -73,12 +73,12 @@ const Footer = () => {
                     src="/icons/telegram.svg"
                     alt="telegram icon"
                     width={12}
-                    height={9.94}
+                    height={10}
                   />
                 </a>
               </li>
               <li>
-                <a href="#" aria-label="x">
+                <a href="https://x.com/GlobalUA" aria-label="x">
                   <Image
                     src="/icons/X.svg"
                     alt="X icon"
