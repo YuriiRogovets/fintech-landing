@@ -22,7 +22,7 @@ const Hero = () => {
             — instant global transfers
           </p>
 
-          <LinkButton href="#" size="large">
+          <LinkButton href="mailto:kvitka@gbhs.fr" size="large">
             {t("getStarted")}
           </LinkButton>
           

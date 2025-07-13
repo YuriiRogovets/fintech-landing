@@ -28,7 +28,7 @@ export default function Header() {
           <LanguageSwitcher />
 
           {/* CTA button */}
-          <LinkButton href="#" size="small">
+          <LinkButton href="mailto:kvitka@gbhs.fr" size="small">
             Sign up
           </LinkButton>
         </div>

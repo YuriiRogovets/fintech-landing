@@ -22,7 +22,7 @@ const Services = () => {
               confidence
             </p>
             <div className={styles.buttonWrapper}>
-              <LinkButton href="#" size="large">
+              <LinkButton href="mailto:kvitka@gbhs.fr" size="large">
                 Register Now
               </LinkButton>
             </div>
@@ -44,7 +44,7 @@ const Services = () => {
             <div className={styles.featuresInner}>
               <div className={styles.feature}>
                 <Image
-                  src="/images/feature01.jpg"
+                  src="/images/feature01.png"
                   alt="feature image"
                   width={176}
                   height={48}
@@ -56,7 +56,7 @@ const Services = () => {
               </div>
               <div className={styles.feature}>
                 <Image
-                  src="/images/feature02.jpg"
+                  src="/images/feature02.png"
                   alt="feature image"
                   width={48}
                   height={48}
@@ -69,7 +69,7 @@ const Services = () => {
               </div>
               <div className={styles.feature}>
                 <Image
-                  src="/images/feature03.jpg"
+                  src="/images/feature03.png"
                   alt="feature image"
                   width={48}
                   height={48}
@@ -79,7 +79,7 @@ const Services = () => {
               </div>
               <div className={styles.feature}>
                 <Image
-                  src="/images/feature04.jpg"
+                  src="/images/feature04.png"
                   alt="feature image"
                   width={48}
                   height={48}

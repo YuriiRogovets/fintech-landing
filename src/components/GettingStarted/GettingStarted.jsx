@@ -14,7 +14,7 @@ export default function gettingStarted() {
                     global modern enterprises and freelancers
                     </p>
                 </div>
-                <LinkButton href="#" size="large">Register Now</LinkButton>
+                <LinkButton href="mailto:kvitka@gbhs.fr" size="large">Register Now</LinkButton>
             </div>
 
             <div className={styles.steps}>
