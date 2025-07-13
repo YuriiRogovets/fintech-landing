@@ -140,6 +140,7 @@
   line-height: 1.5;
   font-weight: 500;
   color: #586673;
+  margin-bottom: 12px;
 }
 
 .liContent {
@@ -151,16 +152,6 @@
   font-weight: 600;
   color: #113453;
 }
-
-/* .description ul li strong {
-  margin-left: 12px;
-  color: #113453;
-  display: inline-flex;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-} */
 
 .transferImg {
   flex: 1;
@@ -238,7 +229,11 @@
     margin: 0.5rem 0;
   }
 
+  .transfers {
+    gap: 1.5rem;
+  }
+
   .description ul li {
-    font-size: 0.875rem;
+    align-items: center;
   }
 }

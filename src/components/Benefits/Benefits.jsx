@@ -25,6 +25,7 @@ const Benefits = () => {
             </li>
           </ul>
       </div>    
+      
       </section>
   )
 }

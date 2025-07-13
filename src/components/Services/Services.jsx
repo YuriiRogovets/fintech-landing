@@ -7,7 +7,6 @@ const Services = () => {
   return (
     <section className={styles.services}>
       <div className={styles.container}>
-
         <div className={styles.top}>
           <div className={styles.title}>
             <h2>EMI Services at a Glance</h2>
@@ -105,8 +104,8 @@ const Services = () => {
 
                 <div className={styles.liContent}>
                   <strong>SEPA Transfers </strong> - fast and reliable euro
-                 payments across Europe
-                </div>                
+                  payments across Europe
+                </div>
               </li>
               <li>
                 {" "}
@@ -120,7 +119,6 @@ const Services = () => {
                   <strong>SWIFT Transfers </strong> - global reach for
                   international business payments
                 </div>
-                
               </li>
               <li>
                 <Image
@@ -131,8 +129,8 @@ const Services = () => {
                 />
                 <div className={styles.liContent}>
                   <strong>Crypto Transactions </strong>- seamless crypto
-                   operations, integrated into your account
-                </div>                
+                  operations, integrated into your account
+                </div>
               </li>
               <li>
                 <Image
@@ -144,7 +142,7 @@ const Services = () => {
                 <div className={styles.liContent}>
                   <strong>Internal Transfers </strong> - instant{" "}
                   <strong>free </strong> payments between KViTKA Pro accounts
-                </div>                
+                </div>
               </li>
 
               <li>
@@ -155,8 +153,8 @@ const Services = () => {
                   height={24}
                 />
                 <div className={styles.liContent}>
-                  <strong>Investment, crowdfunding and donations </strong> - with{" "}
-                <strong>0 fees </strong> directly in one app
+                  <strong>Investment, crowdfunding and donations </strong> -
+                  with <strong>0 fees </strong> directly in one app
                 </div>
               </li>
             </ul>
