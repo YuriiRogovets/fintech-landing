@@ -7,10 +7,11 @@
   max-width: 1360px;
   border-radius: 2rem;
   background-color: #002a4e;
-  background-image: url(/images/bg-benefit-desk.jpg);
+  /* background-image: url(/images/bg-benefit-desk.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  /* overflow: visible; */
 }
 
 .container {
@@ -22,9 +23,29 @@
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  /* overflow-x: auto; */
-  /* margin: 320px auto; */
+  
 }
+
+.LeftIcon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  color: white;
+   z-index: 0;
+  fill: var(--color-bg);
+}
+
+.RightIcon {
+  position: absolute;
+  top: 18px;
+  right: 28px;
+   opacity: 0.8;
+  color: white;
+   /* z-index: 0; */
+  fill: var(--color-bg);
+}
+
 
 .title {
   font-size: 1.5rem;
@@ -55,8 +76,21 @@
 @media (max-width: 768px) {
   .benefits {
     flex-direction: column;
-    background-image: url(/images/bg-benefit-mobile.jpg);
+    /* background-image: url(/images/bg-benefit-mobile.jpg); */
   }
+
+  .LeftIcon {
+  width: 75px;
+  height: 56px;
+  
+}
+
+.RightIcon {
+  width: 45px;
+  height: 45px;
+  right: 16px;
+  }
+
   .benefits ul {
     flex-direction: column;
     gap: 0.75rem;
